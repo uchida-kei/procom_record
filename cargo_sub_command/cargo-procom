@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cargo new --bin --vcs none $2
+cp ../tmp.rs ./$2/src/main.rs
+nvim ./$2/src/main.rs
